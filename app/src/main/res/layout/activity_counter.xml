@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    tools:context=".CounterActivity">
+    <TextView
+        android:id="@+id/count"
+        android:textColor="#ffffff"
+        android:text="COUNT : 0"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/inc"
+        android:textSize="34sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="INCREMENT"
+        />
+
+    <Button
+        android:id="@+id/dec"
+        android:textSize="34sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="DECREMENT"
+        />
+    <Button
+        android:id="@+id/reset"
+        android:textSize="34sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="RESET"
+        />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textMessage" type="id" />
+    <item name="editFriendName" type="id" />
+    <item name="greetButton" type="id" />
+</resources>
